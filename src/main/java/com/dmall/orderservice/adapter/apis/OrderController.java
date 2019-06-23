@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 @RestController
-@RequestMapping
+@RequestMapping("/orders")
 public class OrderController {
     private final OrderWriteService orderWriteService;
     private final OrderReadService orderReadService;
